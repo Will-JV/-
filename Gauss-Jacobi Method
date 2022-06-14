@@ -49,7 +49,7 @@ while(truecounter!=3){
         x[i]=temp[i];
     }
     repetitions++;
-    fprintf(f,"%d\t%lf\n",repetitions,maxmargin);  //X-data = repetitions, Y-data = log(maxmargin)
+    fprintf(f,"%d\t%lf\n",repetitions,log(maxmargin));  //X-data = repetitions, Y-data = log(maxmargin)
 }
 fclose(f);
 
