@@ -53,10 +53,4 @@ for(i=0;i<(int)(range/dx);i++){						//Copying array for the next calculation
 	}
 }
 
-
-char *data = "plot 'graph1.dat' w l,'graph2.dat' w l, 'graph3.dat' w l,'graph4.dat' w l,'graph5.dat' w l,'graph6.dat' w l";
-	
-FILE *gnuplotPipe = popen("gnuplot -persistent","w");    //Plotting data file with GNUPLOT
-fprintf(gnuplotPipe,"%s \n",data);
-fclose(gnuplotPipe);
 }
