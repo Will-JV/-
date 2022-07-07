@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-#define range 30								//range of x where graph is to be plotted
+#define range 20								//range of x where graph is to be plotted
 
 
 int main(){																			//CFD programming
